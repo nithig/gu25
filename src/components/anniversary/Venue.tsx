@@ -61,8 +61,8 @@ export function Venue() {
             </p>
 
             <div className="mt-10 flex items-center gap-8">
-              <div className="frame-gold p-3 bg-[#050505]">
-                <img src={QR} alt="QR code to venue location" className="h-32 w-32" />
+              <div className="frame-gold bg-[#050505] p-2 sm:p-3">
+                <img src={QR} alt="QR code to venue location" className="h-24 w-24 sm:h-28 sm:w-28 md:h-32 md:w-32" />
               </div>
               <div>
                 <p className="font-display text-[0.5rem] md:text-[0.6rem] tracking-[0.5em] text-champagne/60 uppercase">

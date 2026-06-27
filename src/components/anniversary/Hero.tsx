@@ -130,11 +130,11 @@ export function Hero() {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: [0, 1, 1, 0], scale: [0.9, 1, 1, 1.02] }}
                 transition={{ duration: 5.6, times: [0, 0.15, 0.6, 1], ease: [0.22, 1, 0.36, 1] }}
-                className="absolute inset-0 flex items-center justify-center"
+                className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 items-center justify-center"
               >
-                <h2 className="font-display text-[8rem] sm:text-[12rem] md:text-[20rem] lg:text-[24rem] leading-none text-gold-foil drop-shadow-[0_10px_30px_rgba(0,0,0,0.6)]">
+                <h2 className="font-display text-[6.5rem] leading-none text-gold-foil drop-shadow-[0_10px_30px_rgba(0,0,0,0.6)] sm:text-[10rem] md:text-[16rem] lg:text-[24rem]">
                   25
-                  <sup className="ml-2 align-super text-[2.4rem] sm:text-[3.6rem] md:text-[4.8rem] lg:text-[5.6rem] font-display" style={{ lineHeight: 1 }}>
+                  <sup className="ml-2 align-super text-[1.7rem] font-display sm:text-[2.6rem] md:text-[3.8rem] lg:text-[5rem]" style={{ lineHeight: 1 }}>
                     th
                   </sup>
                 </h2>
